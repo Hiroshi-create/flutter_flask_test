@@ -1,0 +1,44 @@
+name: flutter_grpc
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # flutter_hooks: ^0.20.1
+  # freezed_annotation: ^2.4.1
+  grpc: ^3.2.4
+  # hooks_riverpod: ^2.4.0
+  # json_annotation: ^4.8.1
+  # riverpod_annotation: ^2.1.5
+  # flutter_chat_ui: ^1.6.9
+  # flutter_chat_types: ^3.6.2
+  # flutter_slidable: ^3.0.0
+  protoc_plugin: ^21.1.1
+  path_provider: ^2.1.1
+  audioplayers: ^5.1.0
+  # flutter_sound: ^9.2.13
+  flutter_riverpod: ^2.4.1
+  # downloads_path_provider_28: ^0.1.2
+  hooks_riverpod: ^2.3.6
+  flutter_hooks: ^0.20.2
+
+  # cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # flutter_lints: ^2.0.0
+  # riverpod_generator: ^2.3.2
+  # freezed: ^2.4.2
+  # build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/language.txt
